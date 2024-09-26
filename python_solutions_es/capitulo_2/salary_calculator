@@ -1,0 +1,7 @@
+#Salary
+
+hours = float(input("Introduzca las horas:"))
+tarifa = float(input("Introduzca la tarifa"))
+
+salario = hours * tarifa
+print("Salario:", salario)
