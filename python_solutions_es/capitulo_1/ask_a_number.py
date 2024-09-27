@@ -1,5 +1,5 @@
-#Ask the user for a number
+#pregunta un numero
 
-max_number = int(input("Up to what number should I count?:"))
+max_number = int(input("hasta que numero debo contar?:"))
 for x in range(1, max_number + 1):
     print(x)
