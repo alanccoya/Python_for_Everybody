@@ -12,4 +12,4 @@ else:
     else:
         tasa = 0.30
     impuesto = ingreso * tasa
-    print(f"Debes pagar ${impuesto:2.f} en impuestos.")
+    print(f"Debes pagar ${impuesto:.2f} en impuestos.")
