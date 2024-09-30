@@ -11,5 +11,6 @@ else:
         tasa = 0.20
     else:
         tasa = 0.30
+        
     impuesto = ingreso * tasa
     print(f"Debes pagar ${impuesto:.2f} en impuestos.")
