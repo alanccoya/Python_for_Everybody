@@ -8,7 +8,10 @@ def calculo_salario(horas, tarifa):
         salario = horas * tarifa
     return salario
 
-horas = float(input("Introduzca las horas: "))
-tarifa = float(input("Introduzca la tarifa por hora: "))
-salario = calculo_salario(horas, tarifa)
-print(f"Salario: ${salario}")
+try:
+    horas = float(input("Introduzca las horas: "))
+    tarifa = float(input("Introduzca la tarifa por hora: "))
+    salario = calculo_salario(horas, tarifa)
+    print(f"Salario: ${salario}")
+except ValueError:
+    print("Error, por favor introduzca un numero valido.")
