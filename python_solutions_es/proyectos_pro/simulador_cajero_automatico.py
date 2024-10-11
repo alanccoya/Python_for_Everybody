@@ -1,4 +1,4 @@
-#Proyecto: Simulador de Cajero Automatico
+#Proyecto: Simulador de Cajero Automatico @alanccoya
 
 saldo = 0  #iniciamos con el saldo en "0"
 
