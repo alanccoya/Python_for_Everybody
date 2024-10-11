@@ -99,7 +99,7 @@ def menu():
         elif opcion == "4":
             mostrar_historial() # nueva opcion para mostrar el historial
         elif opcion == "5":
-            print("Saliendo del programa... bip boop... :D")
+            print("Saliendo del programa... bip boop... :D             @alanccoya")
             break
         else:
             print("Opción inválida. Inténtalo de nuevo.")
